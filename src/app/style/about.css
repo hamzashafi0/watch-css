@@ -1,0 +1,52 @@
+/* About section background color */
+.about-container {
+    background-color: #9b4dca; /* Purple background */
+  }
+  
+  /* About section text color */
+  .about-section {
+    color: black;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container for the section */
+  .about-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 1.25rem; /* Padding of 24px (top/bottom), 5px (left/right) */
+  }
+  
+  /* Heading styles */
+  .about-heading {
+    font-size: 2.25rem; /* Adjust size as per your design */
+    font-weight: bold;
+    color: #1a202c; /* Gray-900 color */
+    margin-bottom: 1rem;
+  }
+  
+  /* Image styles */
+  .about-image {
+    width: 33.333%; /* 2/6 of the container */
+    margin-bottom: 2.5rem; /* 10px */
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+    margin-top: 1.25rem; /* Margin top of 5 */
+  }
+  
+  /* Text section styles */
+  .about-text-container {
+    text-align: center;
+    width: 66.666%; /* 2/3 of the container */
+  }
+  
+  /* Paragraph styling */
+  .about-text {
+    margin-bottom: 2rem;
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75;
+    font-family: 'Courier New', Courier, monospace; /* Custom font */
+  }
+  

@@ -1,0 +1,53 @@
+/* Navbar container background color */
+.navbar-container {
+    background-color: #a091c4; 
+  }
+  
+  /* Header styles */
+  .navbar-header {
+    color: #4a5568; /* Gray text color */
+    font-family: 'Arial', sans-serif; /* You can set your desired font family */
+  }
+  
+  /* Navbar inner container */
+  .navbar-inner-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.25rem; /* Padding of 5 */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    color: #1a202c; /* Dark Gray Text */
+    margin-bottom: 1rem;
+  }
+  
+  .navbar-logo span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 0.75rem;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .navbar-link {
+    margin-right: 1.25rem; /* Margin of 5 */
+    color: #000000; /* Black text color */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #243947; /* Light blue color when hovered */
+  }
+  
